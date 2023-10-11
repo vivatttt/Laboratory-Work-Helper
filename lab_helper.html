@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script> 
+    <link href="styles_lab_helper.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form id="myForm">
+      <label>CONSTANTS:<br /></label><br />
+      
+      <input id="name_const1" name="name_const1" size="1" placeholder="name"/> = <input
+        id="value_const1"
+        name="value_const1"
+        size="10"
+        placeholder="value"
+      /><br />
+      <input id="name_const2" name="name_const2" size="1" placeholder=" G"/> = <input
+        id="value_const2"
+        name="value_const2"
+        size="10"
+        placeholder="9.81"
+      /><br />
+      <input id="name_const3" name="name_const3" size="1" placeholder=" C"/> = <input
+        id="value_const3"
+        name="value_const3"
+        size="10"
+        placeholder="101.101"
+      />
+      <h1>enter constants (exept PI, E, etc) if necesarry <br> !use capital letters!</h1><br />
+      <label>STATE VALUES:<br /></label><br />
+      <input id="name_sv1" name="name_sv1" size="1" placeholder=" T"/> :
+      <input id="value_sv1" name="value_sv1" size="35" placeholder="1 2 3 4... or [1, 4, 1]"/><label id="star">*<br /></label>
+      <h1>enter a list of values for which measurements were performed<br> as sequence: 10 20 30... or range [start, finish, step]</h1><br />
+      <label>EXPERIMENTAL VALUES:<br /></label><br />
+      <input id="name_ev1" name="name_ev1" size="1" placeholder=" S"/> :
+      <input id="value_ev1" name="value_ev1" size="35" placeholder="0.1 2.132 100.9"/><label id="star">*<br /></label>
+      <h1>enter values you received during the experiment</h1><br />
+      <label>EQUATION:<br /></label><br />
+      <input id="name_dependence1" name="name_dependence1" size="1" placeholder=" V"/> = <input
+        id="value_dependence1"
+        name="value_dependence1"
+        size="35"
+        placeholder=" S/T + C/pi + sin(45deg)^2/3"
+      /><label id="star">*<br /></label>
+      <h1>enter the formula <br> don't forgot to use your experimental or state values, which are necessary in dependence</h1><br />
+
+      <input type="submit" value="submit" id="button"/>
+    </form>
+    <br />
+
+    <div id="table_1"></div>
+    <br />
+    <canvas id="graph" width=500 height=500></canvas>
+    
+    <div id="input_inf"></div>
+    <script src="lab_helper.js"></script>
+
+  </body>
+</html>
