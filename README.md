@@ -42,7 +42,12 @@ For example, for initially specified time intervals (5, 10, 15, 20 seconds), you
 Since the program uses the library Math.JS , you can enter a formula of any ([almost](https://mathjs.org/docs/expressions/parsing.html)) kind.
 So let's start in order - 
 1. Enter constants if it is necessary.
-2. Enter 
+2. Enter values, that given in your task. You can do it as sequence as **1 2 3 4** or a range as **[1, 4, 1]** ([start, finish, step]).
+3. Enter values, that you received during the experiment.
+4. Enter your formula. In that field you can use any variable, that you entered before. It is necessary to enter at least one variable (Given or Experimental value).
+
+The number of rows and columns of the table will be generated automatically, according to the entered data, points will be plotted on the graph, which will help (approximately) determine the dependence between the given values and the values obtained after processing.
+
 ## Documentation
 
 #### Classes
