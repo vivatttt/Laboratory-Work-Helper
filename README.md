@@ -39,7 +39,10 @@ First of all, you need to understand that this program does not have a large ran
 >To obtain experimentally any values (for already set data), process them according to the formula and determine the dependence (plot) of the obtained value from the initially set one.
 For example, for initially specified time intervals (5, 10, 15, 20 seconds), you experimentally find the path traveled by the body (3.12, 7, 12.901, 15.8 meters), substitute it into the velocity formula (you can use constants at the same time) and plot (by points) how the velocity changed for different time intervals
 
-Since the program uses the library Math.JS , you can enter a formula of any ([almost](https://mathjs.org/docs/expressions/parsing.html)) kind
+Since the program uses the library Math.JS , you can enter a formula of any ([almost](https://mathjs.org/docs/expressions/parsing.html)) kind.
+So let's start in order - 
+1. Enter constants if it is necessary.
+2. Enter 
 ## Documentation
 
 #### Classes
