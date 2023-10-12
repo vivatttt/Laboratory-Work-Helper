@@ -60,3 +60,5 @@ You can also connect it to your project by adding the string below into your *he
 
 #### Methods
 
+*Will be here soon ;)*
+
