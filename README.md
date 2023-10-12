@@ -35,7 +35,9 @@ This program is created in order to make life easier for students. It solves tem
 </p>
 
 ## Manual
-
+First of all, you need to understand that this program does not have a large range of settings and solves only a clearly defined task:
+>To obtain experimentally any values (for already set data), process them according to the formula and determine the dependence (plot) of the obtained value from the initially set one.
+For example, for initially specified time intervals (5, 10, 15, 20 seconds), you experimentally find the path traveled by the body (3.12, 7, 12.901, 15.8 meters), substitute it into the velocity formula (you can use constants at the same time) and plot (by points) how the velocity changed for different time intervals
 
 ## Documentation
 
