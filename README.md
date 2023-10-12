@@ -50,6 +50,12 @@ The number of rows and columns of the table will be generated automatically, acc
 
 ## Documentation
 
+## Libraries
+First and the only library, that used in that project is [Math.Js](https://mathjs.org/)
+You can also connect it to your project by adding the string below into your *head* tag in html.
+```java script
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+```
 #### Classes
 
 
